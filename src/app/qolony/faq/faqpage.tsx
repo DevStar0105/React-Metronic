@@ -17,7 +17,7 @@ const FaqPage: React.FC = () => {
               aria-expanded="false"
               aria-controls="kt_accordion_1_body_1"
             >
-              Accordion Item #1
+              What is Qolony?
             </button>
           </h2>
           <div
@@ -27,16 +27,8 @@ const FaqPage: React.FC = () => {
             data-bs-parent="#kt_accordion_1"
           >
             <div className="accordion-body">
-              <strong>This is the first item's accordion body.</strong>It
-              is hidden by default, until the collapse plugin adds the
-              appropriate classes that we use to style each element. These
-              classes control the overall appearance, as well as the
-              showing and hiding via CSS transitions. You can modify any
-              of this with custom CSS or overriding our default variables.
-              It's also worth noting that just about any HTML can go
-              within the
-              <code>.accordion-body</code>, though the transition does
-              limit overflow.
+              <strong>Qolony</strong> is a platform for all sorts of investors and entrepreneurs.
+              Our aim is to democratize investments by providing our members access to worldwide wetted opportunities.
             </div>
           </div>
         </div>
@@ -50,7 +42,7 @@ const FaqPage: React.FC = () => {
               aria-expanded="false"
               aria-controls="kt_accordion_1_body_2"
             >
-              Accordion Item #2
+              What is AntVenture?
             </button>
           </h2>
           <div
@@ -60,16 +52,8 @@ const FaqPage: React.FC = () => {
             data-bs-parent="#kt_accordion_1"
           >
             <div className="accordion-body">
-              <strong>This is the second item's accordion body.</strong>It
-              is hidden by default, until the collapse plugin adds the
-              appropriate classes that we use to style each element. These
-              classes control the overall appearance, as well as the
-              showing and hiding via CSS transitions. You can modify any
-              of this with custom CSS or overriding our default variables.
-              It's also worth noting that just about any HTML can go
-              within the
-              <code>.accordion-body</code>, though the transition does
-              limit overflow.
+              An <strong>AntVenture</strong> is an investing opportunity.
+              You can find them by navigating through the AntVentures section of the app
             </div>
           </div>
         </div>
@@ -83,7 +67,7 @@ const FaqPage: React.FC = () => {
               aria-expanded="false"
               aria-controls="kt_accordion_1_body_3"
             >
-              Accordion Item #3
+              What is a Nest?
             </button>
           </h2>
           <div
@@ -93,16 +77,8 @@ const FaqPage: React.FC = () => {
             data-bs-parent="#kt_accordion_1"
           >
             <div className="accordion-body">
-              <strong>This is the third item's accordion body.</strong>It
-              is hidden by default, until the collapse plugin adds the
-              appropriate classes that we use to style each element. These
-              classes control the overall appearance, as well as the
-              showing and hiding via CSS transitions. You can modify any
-              of this with custom CSS or overriding our default variables.
-              It's also worth noting that just about any HTML can go
-              within the
-              <code>.accordion-body</code>, though the transition does
-              limit overflow.
+              A <strong>Nest</strong> is a feature of Qolony that can be used by a known entity (like a bank) or a professional investor to create a community.
+              Any user can request to join a given Nest to gain access to their different benefits, such as exclusive investment opportunities.
             </div>
           </div>
         </div>
