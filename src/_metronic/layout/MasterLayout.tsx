@@ -30,7 +30,7 @@ const MasterLayout: React.FC = ({children}) => {
               <Content>{children}</Content>
             </div>
           </div>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </div>
 
