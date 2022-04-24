@@ -43,8 +43,8 @@ export function PrivateRoutes() {
         <Route path='/crafted/account' component={AccountPage} />
         <Route path='/apps/chat' component={ChatPage} />
         <Route path='/menu-test' component={MenuTestPage} />
-        <Redirect from='/auth' to='/dashboard' />
-        <Redirect exact from='/' to='/dashboard' />
+        <Redirect from='/auth' to='/ventures' />
+        <Redirect exact from='/' to='/ventures' />
         <Redirect to='error/404' />
       </Switch>
     </Suspense>
