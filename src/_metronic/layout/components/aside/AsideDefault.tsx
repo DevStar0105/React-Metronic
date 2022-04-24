@@ -24,7 +24,7 @@ const AsideDefault: FC = () => {
       data-kt-drawer-toggle='#kt_aside_mobile_toggle'
     >
       {/* begin::Brand */}
-      <div className='aside-logo flex-column-auto' id='kt_aside_logo'>
+      <div className='aside-logo flex-column-auto' id='kt_aside_logo' style={{backgroundColor: '#3d4691'}}>
         {/* begin::Logo */}
         {aside.theme === 'dark' && (
           <Link to='/dashboard'>
@@ -36,12 +36,12 @@ const AsideDefault: FC = () => {
           </Link>
         )}
         {aside.theme === 'light' && (
-          <Link to='/dashboard'>
+          <Link to='/'>
             <img
               alt='Logo'
               className='h-25px logo'
-              src={toAbsoluteUrl('/media/logos/logo-1.svg')}
-            />
+              src={toAbsoluteUrl('/media/logos/logo.png')}
+            /><span className='logo text-white' style={{fontSize: '1.5rem', verticalAlign: 'middle', marginLeft: '5px'}}>QOLONY</span>
           </Link>
         )}
         {/* end::Logo */}
