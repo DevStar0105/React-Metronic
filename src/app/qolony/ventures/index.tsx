@@ -4,6 +4,7 @@ import { Switch, Route, Redirect } from 'react-router-dom'
 import { toAbsoluteUrl, KTSVG } from '../../../_metronic/helpers'
 import { PageLink, PageTitle } from '../../../_metronic/layout/core'
 import Test from './test'
+import Saludo from './saludo'
 import { VenturesPage } from './venturespage'
 
 const Ventures: React.FC = () => {
@@ -15,8 +16,11 @@ const Ventures: React.FC = () => {
           <VenturesPage />
         </Route>
         <Route path='/ventures/test'>
-          <PageTitle breadcrumbs={[]}>Test</PageTitle>
           <Test />
+        </Route>
+
+        <Route path='/ventures/saludo'>
+          <Saludo />
         </Route>
 
         <Redirect from='/ventures/' exact={true} to='/ventures/dashboard' />

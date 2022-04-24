@@ -9,7 +9,7 @@ const VenturesPage: React.FC = () => {
       <div className='shadow rounded p-8'>
         <div className='mb-6'>
           <Link to='/ventures/test'><img className='w-100px h-100px' src={toAbsoluteUrl('/media/ventures/rock01.jpg')} alt="" style={{borderRadius: '50%'}} /></Link>
-          <img className='w-100px h-100px' src={toAbsoluteUrl('/media/ventures/rocket.png')} alt="" style={{marginLeft: '1rem'}} />
+          <Link to='/ventures/saludo'><img className='w-100px h-100px' src={toAbsoluteUrl('/media/ventures/rocket.png')} alt="" style={{marginLeft: '1rem'}} /></Link>
         </div>
         <div style={{marginLeft: '1rem'}}>
           <p style={{fontSize: '1.3rem', marginBottom: '0px'}} className='badge badge-danger'>Promoted</p>

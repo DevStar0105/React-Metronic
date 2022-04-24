@@ -3,15 +3,15 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import { toAbsoluteUrl, KTSVG } from '../../../../_metronic/helpers'
 import { PageTitle } from '../../../../_metronic/layout/core'
-import { TestPage } from './testpage'
+import { SaludoPage } from './saludopage'
 
-const Test: React.FC = () => {
+const Saludo: React.FC = () => {
   return (
     <>
-      <PageTitle breadcrumbs={[]}>Test</PageTitle>
-      <TestPage />
+      <PageTitle breadcrumbs={[]}>Saludo</PageTitle>
+      <SaludoPage />
     </>
   )
 }
 
-export default Test
+export default Saludo
