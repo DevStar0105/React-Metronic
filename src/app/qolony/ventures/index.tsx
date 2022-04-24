@@ -5,6 +5,7 @@ import { toAbsoluteUrl, KTSVG } from '../../../_metronic/helpers'
 import { PageLink, PageTitle } from '../../../_metronic/layout/core'
 import Test from './test'
 import Saludo from './saludo'
+import Promoted from './promoted'
 import { VenturesPage } from './venturespage'
 
 const Ventures: React.FC = () => {
@@ -21,6 +22,10 @@ const Ventures: React.FC = () => {
 
         <Route path='/ventures/saludo'>
           <Saludo />
+        </Route>
+
+        <Route path='/ventures/promoted'>
+          <Promoted />
         </Route>
 
         <Redirect from='/ventures/' exact={true} to='/ventures/dashboard' />

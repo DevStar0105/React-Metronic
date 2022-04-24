@@ -7,23 +7,23 @@ const VenturesPage: React.FC = () => {
   return (
     <>
       <div className='shadow rounded p-8'>
-        <div className='mb-6'>
+        <div>
           <Link to='/ventures/test'><img className='w-100px h-100px' src={toAbsoluteUrl('/media/ventures/rock01.jpg')} alt="" style={{borderRadius: '50%'}} /></Link>
           <Link to='/ventures/saludo'><img className='w-100px h-100px' src={toAbsoluteUrl('/media/ventures/rocket.png')} alt="" style={{marginLeft: '1rem'}} /></Link>
-        </div>
-        <div style={{marginLeft: '1rem'}}>
-          <p style={{fontSize: '1.3rem', marginBottom: '0px'}} className='badge badge-danger'>Promoted</p>
         </div>
       </div>
       {/* first cell start */}
       <div className='mt-8 shadow rounded'>
+        <div style={{marginLeft: '1rem', paddingTop: '1rem'}}>
+          <p style={{fontSize: '1.3rem', marginBottom: '0px'}} className='badge badge-danger'>Promoted</p>
+        </div>
         <div className='row'>
           <h1 className='text-center' style={{fontSize: '14rem', letterSpacing: '5rem'}}>TEST</h1>
         </div>
         <div className=' mt-4' style={{marginLeft: '3rem'}}>
           <div className='row'>
             <div className='col-md-11'>
-              <Link to='/'><h2 className='link-primary' style={{fontSize: '2.5rem'}}>VEnture de Ruben</h2></Link>
+              <Link to='/ventures/promoted'><h2 className='link-primary' style={{fontSize: '2.5rem'}}>VEnture de Ruben</h2></Link>
             </div>
             <div className='col-md-1 mt-4'>
               <Link to='/favorite'><i className='bi bi-heart' style={{fontSize: '2.5rem'}}></i></Link>
@@ -37,15 +37,15 @@ const VenturesPage: React.FC = () => {
             </div>
           </div>
         </div>
-        <div style={{marginLeft: '1rem'}}>
-          <p style={{fontSize: '1.3rem'}} className='badge badge-danger'>Promoted</p>
-        </div>
       </div>
       {/* first cell end */}
 
       {/* second cell start */}
-      <div className='mt-8'>
-        <div className='row'>
+      <div className='mt-8 shadow rounded'>
+        <div style={{marginLeft: '1rem', paddingTop: '1rem'}}>
+          <p style={{fontSize: '1.3rem', marginBottom: '0px'}} className='badge badge-danger'>Promoted</p>
+        </div>
+        <div className='row mt-8'>
           <img src={toAbsoluteUrl('/media/ventures/rock01.jpg')} alt="" style={{borderTopLeftRadius: '3rem', borderTopRightRadius: '3rem'}} />
         </div>
         <div className='shadow rounded pt-4' style={{paddingLeft: '3rem'}}>
