@@ -26,6 +26,7 @@ export function PrivateRoutes() {
     <Suspense fallback={<FallbackView />}>
       <Switch>
         <Route path='/ventures' component={Ventures} />
+        <Route path='/ventures/test' component={Ventures} />
         <Route path='/explore' component={Explore} />
         <Route path='/favorites' component={Favorites} />
         <Route path='/myventures' component={MyVentures} />

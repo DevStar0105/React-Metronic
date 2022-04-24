@@ -8,7 +8,7 @@ const VenturesPage: React.FC = () => {
     <>
       <div className='shadow rounded p-8'>
         <div className='mb-6'>
-          <img className='w-100px h-100px' src={toAbsoluteUrl('/media/ventures/rock01.jpg')} alt="" style={{borderRadius: '50%'}} />
+          <Link to='/ventures/test'><img className='w-100px h-100px' src={toAbsoluteUrl('/media/ventures/rock01.jpg')} alt="" style={{borderRadius: '50%'}} /></Link>
           <img className='w-100px h-100px' src={toAbsoluteUrl('/media/ventures/rocket.png')} alt="" style={{marginLeft: '1rem'}} />
         </div>
         <div style={{marginLeft: '1rem'}}>
