@@ -18,14 +18,15 @@ export function AuthPage() {
     <div
       className='d-flex flex-column flex-column-fluid bgi-position-y-bottom position-x-center bgi-no-repeat bgi-size-contain bgi-attachment-fixed'
       style={{
-        backgroundImage: `url(${toAbsoluteUrl('/media/illustrations/sketchy-1/14.png')})`,
+        backgroundColor: 'rgb(61, 70, 145)',
       }}
     >
       {/* begin::Content */}
       <div className='d-flex flex-center flex-column flex-column-fluid p-10 pb-lg-20'>
         {/* begin::Logo */}
         <a href='#' className='mb-12'>
-          <img alt='Logo' src={toAbsoluteUrl('/media/logos/logo-1.svg')} className='h-45px' />
+          <img alt='Logo' src={toAbsoluteUrl('/media/logos/logo.png')} className='h-50px' />
+          <span className='text-white' style={{fontSize: '3rem', verticalAlign: 'middle', marginLeft: '1rem'}}>QOLONY</span>
         </a>
         {/* end::Logo */}
         {/* begin::Wrapper */}
@@ -41,23 +42,6 @@ export function AuthPage() {
         {/* end::Wrapper */}
       </div>
       {/* end::Content */}
-      {/* begin::Footer */}
-      <div className='d-flex flex-center flex-column-auto p-10'>
-        <div className='d-flex align-items-center fw-bold fs-6'>
-          <a href='#' className='text-muted text-hover-primary px-2'>
-            About
-          </a>
-
-          <a href='#' className='text-muted text-hover-primary px-2'>
-            Contact
-          </a>
-
-          <a href='#' className='text-muted text-hover-primary px-2'>
-            Contact Us
-          </a>
-        </div>
-      </div>
-      {/* end::Footer */}
     </div>
   )
 }
