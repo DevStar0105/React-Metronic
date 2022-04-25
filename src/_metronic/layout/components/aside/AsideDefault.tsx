@@ -36,13 +36,13 @@ const AsideDefault: FC = () => {
           </Link>
         )}
         {aside.theme === 'light' && (
-          <Link to='/'>
+          <a href='/'>
             <img
               alt='Logo'
               className='h-25px logo'
               src={toAbsoluteUrl('/media/logos/logo.png')}
             /><span className='logo text-white' style={{fontSize: '1.5rem', verticalAlign: 'middle', marginLeft: '5px'}}>QOLONY</span>
-          </Link>
+          </a>
         )}
         {/* end::Logo */}
 
