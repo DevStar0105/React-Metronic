@@ -2,14 +2,18 @@
 import clsx from 'clsx'
 import React, {useEffect} from 'react'
 import {Link, useLocation} from 'react-router-dom'
+import { shallowEqual, useSelector } from 'react-redux'
 import {MenuComponent} from '../../../assets/ts/components'
 import {KTSVG, toAbsoluteUrl} from '../../../helpers'
 import {useLayout} from '../../core'
 import {Header} from './Header'
 import {DefaultTitle} from './page-title/DefaultTitle'
 import {Topbar} from './Topbar'
+import { RootState } from '../../../../setup'
 
 export function HeaderWrapper() {
+  const isAuthorized = useSelector<RootState>(({auth}) => auth.user, shallowEqual)
+
   const {pathname} = useLocation()
   const {config, classes, attributes} = useLayout()
   const {header, aside} = config
@@ -76,7 +80,12 @@ export function HeaderWrapper() {
           )}
 
           <div className='d-flex align-items-stretch flex-shrink-0'>
-            <Topbar />
+            { isAuthorized ? <Topbar /> : 
+              <div className='d-flex align-items-center'>
+                <Link className='btn btn-primary align-items-center' to='/auth/login'>Login</Link>
+              </div>
+            }
+            {/* <Topbar /> */}
           </div>
         </div>
         {/* end::Wrapper */}
