@@ -2,6 +2,7 @@
 import React, {useState} from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
 import Ant30 from './ant30'
+import Ant6 from './ant6'
 
 const Promoted: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ const Promoted: React.FC = () => {
           <Ant30 />
         </Route>
         <Route path='/ventures/promoted/ant6'>
-          <div>hello6</div>
+          <Ant6 />
         </Route>
         <Redirect exact={true} from='/ventures/promoted' to='/ventures/promoted/ant30'></Redirect>
         <Redirect to='/ventures/promoted/ant30'></Redirect>

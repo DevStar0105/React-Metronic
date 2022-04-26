@@ -51,7 +51,7 @@ const VenturesPage: React.FC = () => {
         <div className='shadow rounded pt-4' style={{paddingLeft: '3rem'}}>
           <div className='row'>
             <div className='col-md-11'>
-              <Link to='/'><h2 className='link-primary' style={{fontSize: '2.5rem'}}>Nest Venture Private</h2></Link>
+              <Link to='/ventures/promoted/ant6'><h2 className='link-primary' style={{fontSize: '2.5rem'}}>Nest Venture Private</h2></Link>
             </div>
             <div className='col-md-1 mt-4'>
               <Link to='/favorite'><i className='bi bi-heart' style={{fontSize: '2.5rem'}}></i></Link>
