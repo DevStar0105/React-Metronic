@@ -14,7 +14,7 @@ const ExplorePage: React.FC = () => {
         <div className='col-md-8'>
           <div className='row'>
             <div className='col-md-11'>
-              <Link to='/'><h2 className='link-primary' style={{fontSize: '2rem'}}>Nest Venture Private</h2></Link>
+              <Link to='/explore/promoted/ant6'><h2 className='link-primary' style={{fontSize: '2rem'}}>Nest Venture Private</h2></Link>
             </div>
             <div className='col-md-1'>
               <Link to='/favorite'><i className='bi bi-heart' style={{fontSize: '2rem'}}></i></Link>
@@ -40,7 +40,7 @@ const ExplorePage: React.FC = () => {
         <div className='col-md-8'>
           <div className='row'>
             <div className='col-md-11'>
-              <Link to='/'><h2 className='link-primary' style={{fontSize: '2rem'}}>Prueba</h2></Link>
+              <Link to='/explore/promoted/ant16'><h2 className='link-primary' style={{fontSize: '2rem'}}>Prueba</h2></Link>
             </div>
             <div className='col-md-1'>
               <Link to='/favorite'><i className='bi bi-heart' style={{fontSize: '2rem'}}></i></Link>
@@ -66,7 +66,7 @@ const ExplorePage: React.FC = () => {
         <div className='col-md-8'>
           <div className='row'>
             <div className='col-md-11'>
-              <Link to='/'><h2 className='link-primary' style={{fontSize: '2rem'}}>Prueba texto largo para probar que se salga del...</h2></Link>
+              <Link to='/explore/promoted/ant1'><h2 className='link-primary' style={{fontSize: '2rem'}}>Prueba texto largo para probar que se salga del box o no</h2></Link>
             </div>
             <div className='col-md-1'>
               <Link to='/favorite'><i className='bi bi-heart' style={{fontSize: '2rem'}}></i></Link>
@@ -92,7 +92,7 @@ const ExplorePage: React.FC = () => {
         <div className='col-md-8'>
           <div className='row'>
             <div className='col-md-11'>
-              <Link to='/'><h2 className='link-primary' style={{fontSize: '2rem'}}>VEnture de Ruben</h2></Link>
+              <Link to='/explore/promoted/ant30'><h2 className='link-primary' style={{fontSize: '2rem'}}>VEnture de Ruben</h2></Link>
             </div>
             <div className='col-md-1'>
               <Link to='/favorite'><i className='bi bi-heart' style={{fontSize: '2rem'}}></i></Link>
@@ -115,7 +115,7 @@ const ExplorePage: React.FC = () => {
         <img className='rounded mb-5' src={toAbsoluteUrl('/media/ventures/rocket.jpg')} alt="" style={{padding: '0px'}} />
         <div>
           <div className='row'>
-            <Link to='/'><h2 className='link-primary' style={{fontSize: '2rem'}}>Saludo</h2></Link>
+            <Link to='/explore/saludo'><h2 className='link-primary' style={{fontSize: '2rem'}}>Saludo</h2></Link>
           </div>
           <div>
             <p>unt in culpa qui officia deserunt mollit anim id est laborum consectetur adlpiscling elit, sed do...al;fdjasd;fjasd;fjasdlfasdfkjasdlfeqkd asldfjlasd aldefjdlvd falfjalsdfe4adjfl asldfjasldf9easd aldsjfladsj alsdkfjalds fjalsdjfla jsdflajsdlf alsdjfl asldkjfla sdfla lsdfj lasdjfl alsd</p>
@@ -129,7 +129,7 @@ const ExplorePage: React.FC = () => {
         <img className='rounded mb-5' src={toAbsoluteUrl('/media/ventures/rock02.jpg')} alt="" style={{padding: '0px'}} />
         <div>
           <div className='row'>
-            <Link to='/'><h2 className='link-primary' style={{fontSize: '2rem'}}>test de link noticia</h2></Link>
+            <Link to='/explore/test'><h2 className='link-primary' style={{fontSize: '2rem'}}>test de link noticia</h2></Link>
           </div>
           <div>
             <p>unt in culpa qui officia deserunt mollit anim id est laborum consectetur adlpiscling elit, sed do...al;fdjasd;fjasd;fjasdlfasdfkjasdlfeqkd asldfjlasd aldefjdlvd falfjalsdfe4adjfl asldfjasldf9easd aldsjfladsj alsdkfjalds fjalsdjfla jsdflajsdlf alsdjfl asldkjfla sdfla lsdfj lasdjfl alsd</p>
