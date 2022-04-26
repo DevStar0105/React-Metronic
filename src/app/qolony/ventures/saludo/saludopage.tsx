@@ -11,7 +11,7 @@ const SaludoPage: React.FC = () => {
           <img className='w-100' src={toAbsoluteUrl('/media/ventures/rocket.jpg')} alt="" />
           <h1 className='position-absolute' style={{bottom: '2rem', left: '2rem', color: 'white', fontSize: '3rem'}}>Saludo</h1>
         </div>
-        <div className='p-8 shadow rounded'>
+        <div className='p-8 shadow rounded' style={{fontSize: '2rem'}}>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Maecenas at nisi vel turpis scelerisque iuctus et ut risus.
