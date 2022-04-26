@@ -8,11 +8,16 @@ const Ant30Page: React.FC = () => {
     <>
       <div className='p-8' style={{backgroundImage: 'linear-gradient(rgba(61, 70, 145, 1), rgba(61, 70, 145, 0))'}}>
         <div className="symbol-group symbol-hover">
-          <div className="symbol symbol-circle symbol-100px mb-10">
-            <img src={toAbsoluteUrl("/media/avatars/150-2.jpg")} alt="" />
+          <div className='col-md-2'>
+            <div className="symbol symbol-circle symbol-100px mb-10">
+              <img src={toAbsoluteUrl("/media/avatars/150-2.jpg")} alt="" />
+            </div>
           </div>
-          <div className="mb-8" style={{marginLeft: '2rem'}}>
+          <div className="mb-8 col-md-9">
             <p className='text-white' style={{fontSize: '4rem'}}>Ant-30</p>
+          </div>
+          <div className='col-md-1' style={{marginBottom: '3rem'}}>
+            <i className="bi bi-heart fs-1 text-white"></i>
           </div>
         </div>
         <div>
