@@ -77,7 +77,7 @@ const VenturesPage: React.FC = () => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='col-md-11'>
-                <Link to='/'><h2 className='link-primary' style={{fontSize: '2rem'}}>Prueba texto largo para probar que se salga del...</h2></Link>
+                <Link to='/ventures/promoted/ant1'><h2 className='link-primary' style={{fontSize: '2rem'}}>Prueba texto largo para probar que se salga del box o no</h2></Link>
               </div>
               <div className='col-md-1'>
                 <Link to='/favorite'><i className='bi bi-heart' style={{fontSize: '2rem'}}></i></Link>
@@ -105,7 +105,7 @@ const VenturesPage: React.FC = () => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='col-md-11'>
-                <Link to='/'><h2 className='link-primary' style={{fontSize: '2rem'}}>Prueba</h2></Link>
+                <Link to='/ventures/promoted/ant16'><h2 className='link-primary' style={{fontSize: '2rem'}}>Prueba</h2></Link>
               </div>
               <div className='col-md-1'>
                 <Link to='/favorite'><i className='bi bi-heart' style={{fontSize: '2rem'}}></i></Link>
