@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {useState} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
-import { toAbsoluteUrl, KTSVG } from '../../../../../_metronic/helpers'
+import { toAbsoluteUrl } from '../../../../../_metronic/helpers'
 
 const Ant6Page: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ const Ant6Page: React.FC = () => {
                     <i className='bi bi-people'></i><span>3</span><i className='bi bi-folder'></i><span>1</span>
                   </div>
                   <p className='title'>Santander</p>
-                  <Link to='/' className='btn btn-light'><span style={{fontSize: '2rem'}}>Send invitation request</span></Link>
+                  <Link to='/' className='btn btn-light'><span style={{fontSize: '2rem'}}>Waiting for acceptance</span></Link>
                 </div>
               </div>
           </div>

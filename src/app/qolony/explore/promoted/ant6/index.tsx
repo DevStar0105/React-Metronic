@@ -1,9 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {useState} from 'react'
-import { Switch, Route, Redirect } from 'react-router-dom'
-import { toAbsoluteUrl, KTSVG } from '../../../../../_metronic/helpers'
+import React from 'react'
 import { PageTitle } from '../../../../../_metronic/layout/core'
-import { Ant6Page } from './ant6dpage'
+import { Ant6Page } from './ant6page'
 
 const Ant6: React.FC = () => {
   return (

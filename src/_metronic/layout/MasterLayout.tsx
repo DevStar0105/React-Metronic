@@ -1,6 +1,5 @@
 import React from 'react'
 import {AsideDefault} from './components/aside/AsideDefault'
-import {Footer} from './components/Footer'
 import {HeaderWrapper} from './components/header/HeaderWrapper'
 import {Toolbar} from './components/toolbar/Toolbar'
 import {ScrollTop} from './components/ScrollTop'
@@ -9,7 +8,6 @@ import {MasterInit} from './MasterInit'
 import {PageDataProvider} from './core'
 import {
   DrawerMessenger,
-  ExploreMain,
   ActivityDrawer,
   Main,
   InviteUsers,

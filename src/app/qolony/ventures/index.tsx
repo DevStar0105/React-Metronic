@@ -1,8 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {useState} from 'react'
+import React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
-import { toAbsoluteUrl, KTSVG } from '../../../_metronic/helpers'
-import { PageLink, PageTitle } from '../../../_metronic/layout/core'
+import { PageTitle } from '../../../_metronic/layout/core'
 import Test from './test'
 import Saludo from './saludo'
 import Promoted from './promoted'
